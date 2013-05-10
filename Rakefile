@@ -7,11 +7,6 @@ require 'bundler'
 Bundler.require :default
 
 require 'bubble-wrap/all'
-require 'motion-cocoapods'
-require 'sugarcube-gestures'
-require 'geomotion'
-require 'formotion'
-
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
